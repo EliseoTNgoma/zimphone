@@ -1,0 +1,62 @@
+body {  
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('phone3.jpg');
+  background-size: cover;      
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+  font-family: 'Segoe UI', sans-serif;
+	justify-content: center;
+	align-item: center;
+}
+
+.container {
+ background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  max-width: 400px;
+  margin: auto;
+	margin-top: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+#check-btn {
+  background-color: #28a745;
+}
+
+#clear-btn {
+  background-color: #dc3545;
+}
+
+#results-div {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
